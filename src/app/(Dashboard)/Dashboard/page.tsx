@@ -38,7 +38,7 @@ const DashboardPage: React.FC = () => {
       <section className={styles.card}>
         <h1 className={styles.title}>{displayName ? `, ${displayName}` : ''} 🎉 به داشبورد خوش آمدی</h1>
         <div className={styles.actions}>
-          <Button onClick={() => router.push('/Login')}>Go to Auth</Button>
+          <Button onClick={() => router.push('/Login')}> برو به Login  </Button>
           <Button onClick={() => { clearUser(); localStorage.removeItem('userPhone'); router.replace('/Login'); }}>Logout</Button>
         </div>
       </section>
