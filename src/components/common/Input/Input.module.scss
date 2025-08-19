@@ -1,0 +1,16 @@
+.field { display: flex; flex-direction: column; gap: 6px; }
+
+.label { font-size: 0.9rem; color: var(--muted); }
+
+.input {
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 12px 14px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.15s ease;
+
+  &:focus { border-color: var(--primary); }
+}
+
+.error { color: #dc2626; font-size: 0.85rem; }

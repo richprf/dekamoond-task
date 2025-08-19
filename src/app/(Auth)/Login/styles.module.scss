@@ -1,0 +1,20 @@
+.container {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    padding: 24px;
+  }
+  
+  .card {
+    background: var(--card-bg);
+    width: 100%;
+    max-width: 420px;
+    border-radius: 16px;
+    box-shadow: var(--shadow);
+    padding: 28px;
+  
+    .title { font-size: 1.6rem; color: var(--text); margin: 0 0 6px; }
+    .subtitle { margin: 0 0 18px; color: var(--muted); font-size: 0.95rem; }
+  
+    .form { display: flex; flex-direction: column; gap: 12px; }
+  }
